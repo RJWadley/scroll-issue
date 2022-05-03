@@ -3,7 +3,6 @@ const path = require("path");
 
 const config: GatsbyConfig = {
   plugins: [
-    "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-plugin-root-import",
       options: {

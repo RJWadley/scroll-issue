@@ -1,17 +1,10 @@
-import * as React from "react"
-import styled from "styled-components"
+import * as React from "react";
+import styled from "styled-components";
 
 const Header = () => (
-  <Wrapper>
+  <div>
     <h1>Header Stuff</h1>
-  </Wrapper>
-)
+  </div>
+);
 
-const Wrapper = styled.header`
-  background-color: rebeccapurple;
-  color: white;
-  display: grid;
-  place-items: center;
-`
-
-export default Header
+export default Header;

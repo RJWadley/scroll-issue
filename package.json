@@ -1,47 +1,26 @@
 {
-  "name": "reform-gatsby-starter",
+  "name": "custom-gatsby-starter",
   "private": true,
-  "description": "Reform Collective Gatsby Starter",
+  "description": "Starter",
   "version": "0.1.0",
-  "author": "Reform Collective",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Starter",
   "dependencies": {
-    "@rjwadley/eslint-plugin-format-gsap": "^0.0.3",
     "dotenv": "16.0.0",
-    "eslint": "^8.14.0",
-    "eslint-plugin-ssr-friendly": "^1.0.6",
     "gatsby": "^4.12.1",
-    "gatsby-link": "^4.12.1",
-    "gatsby-plugin-contentful-optional-fields": "^2.2.2",
-    "gatsby-plugin-manifest": "^4.12.1",
-    "gatsby-plugin-offline": "^5.12.1",
     "gatsby-plugin-root-import": "^2.0.8",
-    "gatsby-plugin-sharp": "^4.12.1",
     "gatsby-plugin-styled-components": "^5.12.1",
     "gatsby-plugin-tsconfig-paths": "^1.0.5",
     "gatsby-plugin-typescript": "^4.12.1",
-    "gatsby-source-contentful": "^7.10.1",
     "gatsby-source-filesystem": "^4.12.1",
-    "gatsby-transformer-sharp": "^4.12.1",
     "gsap": "npm:@gsap/shockingly@^3.10.4",
     "react-dom": "^18.0.0",
-    "react-helmet": "^6.1.0",
     "react-is": "^18.0.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.27",
     "@types/react": "^18.0.6",
-    "@types/react-helmet": "^6.1.5",
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
-    "prettier": "^2.6.2",
     "typescript": "^4.6.3"
   },
   "keywords": [

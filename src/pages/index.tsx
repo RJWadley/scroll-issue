@@ -1,16 +1,10 @@
 import * as React from "react"
 import Layout from "components/Layout"
-import InternalLink from "components/InternalLink"
 
 const IndexPage = () => (
-  <Layout
-    pageAttributes={{
-      title: "Home",
-      description: "This is the home page.",
-    }}
-  >
+  <Layout>
     <p>
-      <InternalLink to="/page-2/">Go to page 2</InternalLink> <br />
+      <a href="/page-2/">Go to page 2</a> <br />
       <br />
     </p>
     <h1>Hi people</h1>

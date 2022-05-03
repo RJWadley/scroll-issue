@@ -1,16 +1,10 @@
 import * as React from "react"
 import Layout from "components/Layout"
-import InternalLink from "components/InternalLink"
 
 const UsingDSG = () => (
-  <Layout
-    pageAttributes={{
-      title: "Using DSG",
-      description: "This is the description of the page.",
-    }}
-  >
+  <Layout>
     <h1>Hello from a template Page</h1>
-    <InternalLink to="/">Go back to the homepage</InternalLink>
+    <a href="/">Go back to the homepage</a>
   </Layout>
 )
 

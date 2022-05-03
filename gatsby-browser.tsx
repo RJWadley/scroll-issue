@@ -1,4 +1,3 @@
-import "styles/typography.css"
 import "styles/reset.css"
 import gsap from "gsap"
 import { CSSPlugin } from "gsap/CSSPlugin"

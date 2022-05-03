@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import ScrollSmoother from "gsap/ScrollSmoother"
+import ScrollSmoother from "gsap-trial/ScrollSmoother"
 
 type props = {
   children: React.ReactNode
